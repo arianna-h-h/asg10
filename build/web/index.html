@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Haradon's Asg 10</title>
+        <link rel="stylesheet" href="css-1.css">
+    </head>
+    <body>
+        <div class="center">
+            <h1>Student Data</h1>
+            <form action="form-processor-one.jsp" method="get">
+                <table class="inline-block">
+                    <tr><th id="th-id1" colspan="2">Student Information</th>
+                    </tr>
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input type="text" name="firstName"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" name="lastName"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number:</td>
+                        <td><input type="text" name="phoneNumber"></td>
+                    </tr>
+                    <tr>
+                        <td>College:</td>
+                        <td><input type="text" name="college"></td>
+                    </tr>
+                <tr>
+                    <td></td>
+                    <td><br><input type="submit" value="Submit Response"></td>
+                    </tr>
+                      </table>
+            </form>
+                        <h1>Sports Data</h1>
+            <form action="form-processor-two.jsp" method="post">
+                <table class="inline-block">
+                    <tr><th id="th-id1" colspan="2">Sports Information</th>
+                    </tr>
+                    <tr>
+                        <td>Favorite Sport: </td>
+                                <td><select name="favoriteSport">
+                                        <option value="football">Football</option>
+                                        <option value="soccer">Soccer</option>
+                                        <option value="tennis">Tennis</option>
+                                        <option value="basketball">Basketball</option>
+                            </select>
+                                    </td>
+                    </tr>
+                    <tr>
+                        <td>Favorite Team:</td>
+                         <td><select name="favoriteTeam">
+                                        <option value="cowboys">Dallas Cowboys</option>
+                                        <option value="madrid">Real Madrid</option>
+                                        <option value="serena">Serena Williams</option>
+                                        <option value="spurs">The San Antonio Spurs</option>
+                            </select>
+                                    </td>
+                    </tr>
+                    <tr>
+                        <td>Favorite Player</td>
+                         <td><select name="favoritePlayer">
+                                        <option value="peyton">Peyton Manning</option>
+                                        <option value="messi">Leo Messi</option>
+                                        <option value="venus">Venus Williams</option>
+                                        <option value="duncan">Tim Duncan</option>
+                            </select>
+                                    </td>
+                    </tr>
+                    <tr>
+                        <td><textarea rows="4" cols="50" name="reasonFavorite">
+Why is he/she your favorite?</textarea></td>
+                    </tr>
+                     <tr>
+                    <td></td>
+                    <td><br><input type="submit" value="Submit Response"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
